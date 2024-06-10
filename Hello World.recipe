@@ -9,7 +9,7 @@ class BasicUserRecipe1642339411(AutomaticNewsRecipe):
     max_articles_per_feed = 10
     compress_news_images = True
     auto_cleanup   = True
-    language = 'en'
+    language = 'zh'
     encoding = 'utf-8'
 
     feeds          = [
