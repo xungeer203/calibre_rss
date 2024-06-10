@@ -9,6 +9,8 @@ class BasicUserRecipe1642339411(AutomaticNewsRecipe):
     max_articles_per_feed = 10
     compress_news_images = True
     auto_cleanup   = True
+    language = 'en'
+    encoding = 'utf-8'
 
     feeds          = [
         # ('\u4e0a\u6d77\u4e66\u8bc4', 'https://feedx.net/rss/shanghaishuping.xml'),
