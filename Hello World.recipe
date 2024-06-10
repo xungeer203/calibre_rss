@@ -1,0 +1,18 @@
+#!/usr/bin/env python2
+# vim:fileencoding=utf-8
+from __future__ import unicode_literals, division, absolute_import, print_function
+from calibre.web.feeds.news import AutomaticNewsRecipe
+
+class BasicUserRecipe1642339411(AutomaticNewsRecipe):
+    title          = 'Hello World'
+    oldest_article = 2
+    max_articles_per_feed = 10
+    auto_cleanup   = True
+
+    feeds          = [
+        ('\u4e0a\u6d77\u4e66\u8bc4', 'https://feedx.net/rss/shanghaishuping.xml'),
+        ('\u55b7\u568f\u56fe\u5366', 'https://feedx.net/rss/pentitugua.xml'),
+        ('\u6f8e\u6e43\u65b0\u95fb', 'https://feedx.net/rss/thepaper.xml'),
+        ('\u864e\u55c5', 'https://feedx.net/rss/huxiu.xml'),
+        ('\u7ecf\u6d4e\u5b66\u4eba', 'https://feedx.net/rss/economistp.xml'),
+    ]
