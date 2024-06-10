@@ -23,6 +23,7 @@ class Example(BasicNewsRecipe):
 
     siteurl = 'https://learningenglish.voanews.com'
     feed_urls = {
+        'penti': 'https://feedx.run/rss/pentitugua.xml',
         'AS IT IS': 'https://learningenglish.voanews.com/z/3521',
         'ARTS & CULTURE': 'https://learningenglish.voanews.com/z/986',
         'AMERICAN STORIES': 'https://learningenglish.voanews.com/z/1581',
