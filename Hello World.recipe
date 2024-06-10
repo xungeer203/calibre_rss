@@ -7,6 +7,7 @@ class BasicUserRecipe1642339411(AutomaticNewsRecipe):
     title          = 'Hello World'
     oldest_article = 2
     max_articles_per_feed = 10
+    compress_news_images = True
     auto_cleanup   = True
 
     feeds          = [
