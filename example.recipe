@@ -5,7 +5,7 @@ from calibre.web.feeds.news import BasicNewsRecipe
 
 
 class Example(BasicNewsRecipe):
-    title = 'VOA Learning English'
+    title = '人帅ye读书'
     description = 'This is example of Calibre recipe.'
     language = 'en'
     encoding = 'utf-8'
