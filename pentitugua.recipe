@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+# vim:fileencoding=utf-8
+from calibre.web.feeds.news import AutomaticNewsRecipe
+
+class BasicUserRecipe1718020043(AutomaticNewsRecipe):
+    title          = 'pentitugua'
+    oldest_article = 2
+    max_articles_per_feed = 10
+    auto_cleanup   = True
+
+    feeds          = [
+        ('喷嚏图卦', 'http://www.dapenti.com/blog/rss2.asp?name=xilei'),
+    ]
